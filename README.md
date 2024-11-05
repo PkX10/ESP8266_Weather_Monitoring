@@ -1,6 +1,6 @@
-# ESP8266 IoT Temperature and Humidity Graphing Project
+# ESP8266 IoT Temperature and Humidity Monitoring System
 
-This project monitors temperature and humidity using a DHT11 sensor connected to an ESP8266 microcontroller. The ESP8266 reads data from the sensor, stores the values, and serves a web page that dynamically displays the readings in a real-time graph. This graph is accessible from any device connected to the same network as the ESP8266.
+This project monitors temperature and humidity using a DHT11 sensor connected to an ESP8266 microcontroller. The ESP8266 reads data from the sensor, stores the values, and serves at ThinkSpeak cloud web page that dynamically displays the readings in a real-time graph, updated every 30 minute (variable). This graph is accessible from any device by logging in to ThinkSpeak from anywhere.
 
 ## Table of Contents
 - [Features](#features)
