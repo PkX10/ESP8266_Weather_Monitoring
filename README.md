@@ -25,6 +25,9 @@ This project monitors temperature and humidity using a DHT11 sensor connected to
 - **Jumper Wires**
 - **MicroUSB data Cable** (for programming and powering the ESP8266)
 
+![image_alt](https://github.com/PkX10/ESP8266_Weather_Monitoring/blob/695bf12dbb625be64b2dc16224410b97356cf430/IMG_20241026_131232.jpg)
+
+
 ## Circuit Diagram
 1. Connect **DHT11 data pin** to **GPIO2** on the ESP8266 (D4).
 2. Connect the **VCC** pin of the DHT11 to **3.3V** on the ESP8266.
@@ -90,7 +93,6 @@ This project monitors temperature and humidity using a DHT11 sensor connected to
    - Data is sent to the ThingSpeak cloud, where it is stored and visualized.
    - ThingSpeak's built-in tools allow for dynamic graphs to display the latest temperature and humidity readings.
    - Graphs update every 30 minutes, providing a real-time view of environmental conditions.
-![image_alt](https://github.com/PkX10/ESP8266_Weather_Monitoring/blob/695bf12dbb625be64b2dc16224410b97356cf430/IMG_20241026_131232.jpg)
 
 4. **ThingSpeak Visualization**:
    - ThingSpeak's platform generates charts for temperature and humidity data.
